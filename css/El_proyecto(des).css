@@ -1,0 +1,157 @@
+﻿body
+{
+	background: url("../img/Puerros-background.jpg") no-repeat;
+	background-size: 100% 100%; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+	margin: 0px;
+}
+#allcontent
+{
+	background-color: #00F700;
+	width: 1000px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header
+{
+	margin: 10px;
+	heigth: 108px;
+	text-align: center;
+}
+div#tableContainer
+{
+	display: table;
+	border-spacing: 10px;
+}
+div#tableRow
+{
+	display: table-row;
+}
+#presentacion
+{
+	display: table-cell;
+	background: #826C34;
+	font-size: 105%;
+	padding: 15px;
+	vertical-align: top;
+}
+aside
+{
+	display: table-cell;
+	background: #826C34;
+	font-size: 105%;
+	padding: 15px;
+	vertical-align: top;
+}
+h1, h2
+{
+	color: #24E711;
+}
+h1
+{
+	font-size: 200%;
+}
+h2
+{
+	font-size: 20px;
+}
+h1#header
+{
+	color: #2271B3;
+	font-size: 300%;
+}
+p
+{
+	font-size: 20px;
+}
+p#presentacion
+{
+	text-align: center;
+	font-size: 145%;
+}
+ul
+{
+	font-size: 80%;
+}
+ol
+{
+	font-size: 150%;
+}
+li
+{
+	list-style-image: url(../img/Puerro-icon.png);
+	padding-top: 5px;
+	margin-left: 20px;
+}
+table
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	border: thin solid black;
+	caption-side: bottom;
+	border-collapse: collapse;
+}
+td, th
+{
+	border: thin dotted #00F700;
+	padding: 5px;
+}
+caption
+{
+	font-style: italic;
+	padding-top: 8px;
+}
+#r, #rm
+{
+	text-align: right;
+}
+#arriba
+{
+	background-color: green;
+}
+.m, .rm
+{
+	background-color: #00F700;
+}
+nav
+{
+	background-color: #826C34;
+	margin: 10px 10px 0px 10px;
+}
+nav ul
+{
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li
+{
+	display: inline;
+	padding: 5px 0px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited
+{
+	color: #00F700;
+	border-bottom: none;
+	font-weight: bold;
+}
+nav ul li#select
+{
+	background-color: green;
+}
+a:link, a:visited
+{
+	color: #00F700;
+}
+footer p
+{
+	background-color: #826C34;
+	color: #00F700;
+	text-align: center;
+	padding: 15px;
+	margin: 0px;
+	font-size: 15px;
+}
